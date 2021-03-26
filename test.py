@@ -300,6 +300,7 @@ async def queueplay(ctx):
             play(ctx)
         else:
             await ctx.send("노래가 이미 재생되고 있어요!")
-           
-bot.run('ODI0ODU1NDkwNDYyNjEzNTA0.YF1cig.lioaxsYSjVXRBxb_tghkQ9eLPHc')
+            
+access_token = os.environ["BOT_TOKEN"]       
+bot.run(access_token)
 
